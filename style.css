@@ -1,0 +1,37 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  transition: font-size 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body:hover {
+  font-size: 17px;
+}
+
+#heroCarousel img {
+  max-height: 300px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+#heroCarousel img:hover {
+  transform: scale(1.05);
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  margin-top: auto;
+}
